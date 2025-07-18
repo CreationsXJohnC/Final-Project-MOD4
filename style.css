@@ -1,0 +1,125 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+#home__page {
+    background-color: white;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+.movie__logo {
+    width: 175px;
+}
+
+.nav__bar {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav__links {
+    display: flex;
+    cursor: pointer;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1em;
+    font-size: 45px;
+    color: black;
+    padding-bottom: 100px;
+}
+
+.header__description {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.search__btn {
+    color: rgba(0, 0, 0, .87);
+    width: 100%;
+    max-width: 800px;
+    height: 60px;
+    font-size: 15px;
+    padding-left: 20px;
+    position: relative;
+    border-radius: 50px;
+
+}
+
+.uptown__overlay {
+    position: relative;
+    height: 650px;
+    overflow-x: hidden;
+}
+
+.uptown__overlay--img {
+    width: 100%;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: -12.5%;
+    right: 0;
+}
+
+#search__movies {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+}
+
+.popcorn__background {
+    width: 100%;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.search__nav {
+    color: black;
+    display: inline-block;
+    padding: 24px 24px;
+    font-size: 35px;
+    font-weight: bold;
+}
