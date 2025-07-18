@@ -14,6 +14,13 @@ body {
 
 #home__page {
     background-color: white;
+    background-image: url(./assets/Uptown_Theater,_Washington,_D.C.15084v.jpg);
+    position: relative;
+    height: 650px;
+    overflow-x: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -85,35 +92,10 @@ h1 {
 
 }
 
-.uptown__overlay {
-    position: relative;
-    height: 650px;
-    overflow-x: hidden;
-}
-
-.uptown__overlay--img {
-    width: 100%;
-    opacity: 0.75;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    left: 0;
-    bottom: -12.5%;
-    right: 0;
-}
-
 #search__movies {
     width: 100%;
     max-width: 800px;
     display: flex;
-}
-
-.popcorn__background {
-    width: 100%;
-    opacity: 0.75;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
 }
 
 .search__nav {
